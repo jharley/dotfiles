@@ -10,7 +10,6 @@ set visualbell                  " disable audible bell
 let mapleader = ","             " map <Leader> to command
 
 set showcmd                     " display incomplete commands
-set number
 set cursorline                  " highlight the current line
 set ruler                       " show the cursor position all the time
 set list                        " show invisible characters
@@ -69,7 +68,7 @@ if has("autocmd")
   autocmd FileType python set noexpandtab
 
   " Manage whitespace on save, maintaining cursor position
-  function! ClearTrailingWhitespace()
+    function! ClearTrailingWhitespace()
     let g:clearwhitespace = exists('g:clearwhitespace') ? g:clearwhitespace : 1
     if g:clearwhitespace
       let save_cursor = getpos(".")
