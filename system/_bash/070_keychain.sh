@@ -2,7 +2,7 @@
 
 # load keychain if we're interactive
 fd=0
-if [[ -t "$fd" || -p /dev/stdin ]]; then
+if [[ -t "$fd" || -p /dev/stdin || ! -z $PS1 ]]; then
     if which keychain > /dev/null; then
         KEYCHAIN=$(which keychain)
         if [ -f ~/.mykeychain ]; then
