@@ -77,7 +77,7 @@ if has("autocmd")
       call setpos('.', save_cursor)
     endif
   endfunction
-  autocmd FileType ruby,haml,eruby,javascript,coffee,handlebars,yaml autocmd BufWritePre <buffer> call ClearTrailingWhitespace()
+  "autocmd FileType ruby,haml,eruby,javascript,coffee,handlebars,yaml autocmd BufWritePre <buffer> call ClearTrailingWhitespace()
 
   " Manage whitespace on save, maintaining cursor position
   function! ConvertTabsToSpaces()
