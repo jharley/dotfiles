@@ -1,4 +1,4 @@
-if which brew > /dev/null; then
+if which brew 2> /dev/null; then
     BASHCOMPLETE_DIR="$(brew --prefix)/etc/bash_completion.d"
 
     if [ -d $BASHCOMPLETE_DIR ]; then
