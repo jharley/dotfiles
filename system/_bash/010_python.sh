@@ -1,4 +1,4 @@
-if which brew 2&>1 > /dev/null; then
+if which brew 2>&1 > /dev/null; then
   PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages
 
   if [ -d ${PYTHONPATH} ]; then
