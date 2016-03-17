@@ -8,4 +8,8 @@ if [[ `uname` == 'Darwin' ]]; then
             done
         fi
     fi
+
+    if [[ -e $(which aws 2>/dev/null) ]]; then
+      complete -C aws_completer aws
+    fi
 fi
