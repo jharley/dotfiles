@@ -1,3 +1,6 @@
 if [ ! -f "$HOME/.bash" ]; then
   for f in ~/.bash/*.sh; do source $f; done
+
+  # 'local' environment variables not managed by git (API tokens, et cetera)
+  [ -f ~/.bashrc.local ] && source ~/.bashrc.local
 fi
