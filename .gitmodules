@@ -7,6 +7,3 @@
 [submodule "submodules/git-push-remote"]
 	path = submodules/git-push-remote
 	url = https://gist.github.com/7381172.git
-[submodule "submodules/git-delete-merged"]
-	path = submodules/git-delete-merged
-	url = https://gist.github.com/8481725.git
