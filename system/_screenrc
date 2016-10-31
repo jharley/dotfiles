@@ -1,5 +1,7 @@
 startup_message off
 
+term xterm-256color
+
 vbell off
 
 backtick 1 3600 3600 date +%Z
