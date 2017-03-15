@@ -4,6 +4,9 @@
 # per-project vim settings
 .lvimrc
 
+# per-project VS Code settings
+.vscode
+
 # local POW config
 .powenv
 
