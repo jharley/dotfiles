@@ -1,0 +1,52 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.cursorStyle": "block",
+    "window.zoomLevel": 1,
+    "editor.cursorBlinking": "blink",
+    "editor.tabSize": 2,
+    "[terraform]": {
+      "editor.formatOnSave": true
+    },
+    "terraform.path": "~/bin/terraform",
+    "editor.renderWhitespace": "boundary",
+    "files.insertFinalNewline": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.scrollback": 10000,
+    "editor.scrollBeyondLastLine": false,
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vs-seti",
+    "files.exclude": {
+      "*.pyc:": true,
+      "**/__pycache__": true,
+      "**/.cache": true,
+      "*.egg-info": true,
+      ".vscode": true,
+      "*.retry": true,
+      "**/.bundle": true,
+      "**/.DS_Store": true,
+      "**/.galaxy": true,
+      "**/.git": true,
+      "**/.hg": true,
+      "**/.kitchen": true,
+      "**/.svn": true,
+      "**/.terraform": true,
+      "**/.molecule": true
+    },
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontSize": 14,
+    "[python]": {
+      "editor.tabSize": 4
+    },
+    "python.pythonPath": "~/.pyenv/shims/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+      "--max-line-length=120"
+    ],
+    "python.linting.pylintArgs": [
+      "--disable=missing-docstring"
+    ],
+    "shellcheck.executablePath": "/usr/local/bin/shellcheck",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false
+  }
