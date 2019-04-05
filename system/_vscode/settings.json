@@ -1,7 +1,6 @@
-// Place your settings in this file to overwrite the default settings
 {
     "editor.cursorStyle": "block",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.cursorBlinking": "blink",
     "editor.tabSize": 2,
     "[terraform]": {
@@ -49,4 +48,4 @@
     "shellcheck.executablePath": "/usr/local/bin/shellcheck",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false
-  }
+}
