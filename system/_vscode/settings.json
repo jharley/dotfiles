@@ -6,7 +6,7 @@
     "[terraform]": {
       "editor.formatOnSave": true
     },
-    "terraform.path": "~/bin/terraform",
+    "terraform.path": "/usr/local/bin/terraform",
     "editor.renderWhitespace": "boundary",
     "files.insertFinalNewline": true,
     "terminal.external.osxExec": "iTerm.app",
