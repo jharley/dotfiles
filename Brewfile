@@ -1,3 +1,5 @@
+tap "AdoptOpenJDK/openjdk"
+
 brew "bash-completion"
 brew "chruby"
 brew "git"
@@ -23,6 +25,7 @@ cask "aws-vault"
 cask "docker"
 cask "google-chrome"
 cask "iterm2"
+cask "adoptopenjdk8"
 cask "keybase"
 cask "slack"
 cask "vagrant"
