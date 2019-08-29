@@ -20,3 +20,11 @@
   whitespace = strip
 [pull]
   rebase = true
+[push]
+  default = simple
+[fetch]
+  prune = true
+[diff]
+  algorithm = patience
+[commit]
+  gpgsign = false

@@ -36,7 +36,6 @@ task :gitconfig do
   `touch #{tmp_gitconfig}`
   `cat gitconfigure/gitconfig.personal >> #{tmp_gitconfig}`
   `cat gitconfigure/gitconfig >> #{tmp_gitconfig}`
-  `cat gitconfigure/gitconfig_18 >> #{tmp_gitconfig}` if has_git_version?("1.8")
   `cat gitconfigure/gitconfig_osxkeychain >> #{tmp_gitconfig}` if system("uname | grep -q 'Darwin'")
 
   if !File.exist?(current_gitconfig)
