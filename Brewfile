@@ -1,5 +1,6 @@
 tap "AdoptOpenJDK/openjdk"
 
+brew "bash"
 brew "bash-completion"
 brew "chruby"
 brew "git"
