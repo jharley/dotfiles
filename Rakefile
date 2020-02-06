@@ -1,6 +1,6 @@
-task :default => [:install_submodules, :gitconfig, :link, :install_vundles]
-task :update => [:update_submodules, :update_vundles]
-task :clean => [:delete_vundles, :unlink]
+task :default => [:install_submodules, :gitconfig, :link]
+task :update => [:update_submodules]
+task :clean => [:unlink]
 
 task :install_submodules do
   sh "git submodule update --init"
@@ -8,21 +8,6 @@ end
 
 task :update_submodules do
   sh "git submodule foreach git pull origin master"
-end
-
-task :install_vundles do
-  sh "vim +BundleInstall +qall"
-end
-
-task :update_vundles do
-  sh "vim +BundleInstall! +qall"
-end
-
-task :delete_vundles do
-  Dir.glob(home_path(".vim/bundle/**")) do |vundle|
-    next if File.symlink?(vundle)
-    rm_r vundle
-  end
 end
 
 task :gitconfig do
