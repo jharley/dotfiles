@@ -10,6 +10,7 @@ brew "gpg"
 brew "ipcalc"
 brew "jq"
 brew "keychain"
+brew "libpq", link: true
 brew "nvm"
 brew "pyenv"
 brew "pyenv-virtualenv"
