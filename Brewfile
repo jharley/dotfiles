@@ -1,4 +1,5 @@
 tap "AdoptOpenJDK/openjdk"
+tap "hashicorp/tap"
 
 brew "bash"
 brew "bash-completion"
@@ -17,7 +18,6 @@ brew "pyenv-virtualenv"
 brew "ruby-install"
 brew "shellcheck"
 brew "telnet"
-brew "terraform_landscape"
 brew "tfenv"
 brew "tree"
 brew "watch"
