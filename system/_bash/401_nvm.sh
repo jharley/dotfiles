@@ -10,8 +10,6 @@ if [[ `uname` == 'Darwin' ]]; then
         # Set a default node if a ~/.nvmrc file exists
         if [ -f ~/.nvmrc ]; then
             nvm use 2>&1 >/dev/null
-        else
-            echo "nvm: no default node set"
         fi
     fi
 fi
