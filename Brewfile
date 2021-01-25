@@ -27,7 +27,7 @@ brew "xz"
 brew "zlib"
 
 cask "1password"
-cask "adoptopenjdk8"
+cask "adoptopenjdk11"
 cask "aws-vault"
 cask "docker"
 cask "firefox"
