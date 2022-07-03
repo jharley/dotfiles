@@ -36,3 +36,5 @@ Thumbs.db
 *.swo
 ehthumbs.db
 .netrwhist
+
+__debug_bin
