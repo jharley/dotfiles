@@ -20,6 +20,7 @@ brew "jq"
 brew "keychain"
 brew "libpq", link: true
 brew "mas"
+brew "pinentry"
 brew "shellcheck"
 brew "telnet"
 brew "tilt-dev/tap/tilt"
