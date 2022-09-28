@@ -1,4 +1,3 @@
-tap "AdoptOpenJDK/openjdk"
 tap "hashicorp/tap"
 tap "homebrew/autoupdate"
 tap "homebrew/cask-drivers"
@@ -33,7 +32,6 @@ brew "xz"
 brew "zlib"
 
 cask "1password"
-cask "adoptopenjdk11"
 cask "aws-vault"
 cask "docker"
 cask "firefox"
