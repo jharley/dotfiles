@@ -1,14 +1,15 @@
 ASDF_PLUGINS="golang python java maven nodejs terraform ruby yarn"
 
-if [[ `uname` == 'Darwin' ]]; then
+if [[ $(uname) == 'Darwin' ]]; then
     if [[ -e $(which asdf 2>/dev/null) ]]; then
-	. $(brew --prefix asdf)/libexec/asdf.sh
+	. "$(brew --prefix asdf)/libexec/asdf.sh"
 
-	for plugin in $ASDF_PLUGINS; do
-          if ! asdf list $plugin 2>/dev/null 1>&2; then
-            asdf plugin-add $plugin
+        INSTALLED_PLUGINS=$(asdf plugin list)
+        for plugin in $ASDF_PLUGINS; do
+          if grep -qw "$plugin" "$INSTALLED_PLUGINS" 2>/dev/null 1>&2; then
+            asdf plugin add "$plugin"
           fi
-	done
+        done
     fi
 fi
 
