@@ -32,6 +32,7 @@ brew "xz"
 brew "zlib"
 
 cask "1password"
+cask "1password-cli"
 cask "aws-vault"
 cask "docker"
 cask "firefox"
