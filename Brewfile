@@ -17,7 +17,6 @@ brew "gpg"
 brew "grep"
 brew "ipcalc"
 brew "jq"
-brew "keychain"
 brew "libpq", link: true
 brew "mas"
 brew "mysql-client"
