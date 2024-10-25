@@ -30,9 +30,12 @@ brew "wget"
 brew "xz"
 brew "zlib"
 
+brew "font-jetbrains-mono-nerd-font"
+
 cask "1password"
 cask "1password-cli"
 cask "aws-vault"
+cask "betterdisplay"
 cask "docker"
 cask "firefox"
 cask "fluid"
