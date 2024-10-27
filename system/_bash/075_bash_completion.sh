@@ -10,4 +10,8 @@ if [[ `uname` == 'Darwin' ]]; then
     if [[ -e $(which aws 2>/dev/null) ]]; then
       complete -C aws_completer aws
     fi
+
+    if [[ -e $(which fzf 2>/dev/null) ]]; then
+      eval "$(fzf --bash)"
+    fi
 fi
