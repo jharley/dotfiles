@@ -13,7 +13,15 @@ if [[ $(uname) == 'Darwin' ]]; then
     fi
 fi
 
-export ASDF_GOLANG_MOD_VERSION_ENABLED=false
+if [ -f ~/.asdf/plugins/golang/set-env.bash ]; then
+  . ~/.asdf/plugins/golang/set-env.bash
+  export ASDF_GOLANG_MOD_VERSION_ENABLED=false
+
+  # run the env adjustment function each prompt invocation
+  if ! [[ "${PROMPT_COMMAND:-}" =~ asdf_update_golang_env ]]; then
+    PROMPT_COMMAND="asdf_update_golang_env${PROMPT_COMMAND:+;$PROMPT_COMMAND}"
+  fi
+fi
 
 if [ -f ~/.asdf/plugins/java/set-java-home.bash ]; then
   . ~/.asdf/plugins/java/set-java-home.bash
