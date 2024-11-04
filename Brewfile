@@ -50,6 +50,7 @@ cask "yubico-yubikey-manager"
 cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
+cask "zed"
 cask "zoom"
 
 mas "1Password for Safari", id: 1569813296

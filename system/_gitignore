@@ -7,6 +7,9 @@
 # per-project VS Code settings
 .vscode
 
+# per-project Zed settings
+.zed
+
 # local POW config
 .powenv
 
