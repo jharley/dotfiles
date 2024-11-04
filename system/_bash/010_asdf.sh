@@ -1,4 +1,4 @@
-ASDF_PLUGINS="golang python java maven nodejs terraform ruby yarn"
+ASDF_PLUGINS="golang python java maven nodejs terraform ruby"
 
 if [[ $(uname) == 'Darwin' ]]; then
     if [[ -e $(which asdf 2>/dev/null) ]]; then
