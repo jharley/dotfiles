@@ -10,6 +10,9 @@
 # per-project Zed settings
 .zed
 
+# Claude local settings
+.claude/settings.local.json
+
 # local POW config
 .powenv
 
