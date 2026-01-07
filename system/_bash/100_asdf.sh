@@ -24,8 +24,10 @@ if [ -f ~/.asdf/plugins/golang/set-env.bash ]; then
   fi
 fi
 
-if [ -f ${ASDF_DATA_DIR}/plugins/java/set-java-home.bash ]; then
-  . ${ASDF_DATA_DIR}/plugins/java/set-java-home.bash
+if java 2>/dev/null 1>&2; then
+  if [ -f ${ASDF_DATA_DIR}/plugins/java/set-java-home.bash ]; then
+    . ${ASDF_DATA_DIR}/plugins/java/set-java-home.bash
+  fi
 fi
 
 export PATH="${ASDF_DATA_DIR}/shims:$PATH"
