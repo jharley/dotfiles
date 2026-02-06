@@ -1,0 +1,22 @@
+command = /opt/homebrew/bin/bash --login
+shell-integration = bash
+shell-integration-features = true
+
+cursor-style = block
+
+macos-auto-secure-input = true
+macos-secure-input-indication = false
+macos-titlebar-proxy-icon = "hidden"
+
+copy-on-select = true
+
+font-family = "JetBrainsMonoNL Nerd Font Mono"
+font-size = 18
+bold-is-bright = true
+
+# ghostty +list-themes for more
+theme = "Material Darker"
+
+window-height = 25
+window-width = 120
+keybind = shift+enter=text:\n
