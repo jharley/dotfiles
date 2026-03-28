@@ -1,3 +1,7 @@
+if [[ -e $(which gpg 2>/dev/null) ]]; then
+  export GPG_TTY=$(tty)
+fi
+
 if [ ! -f "$HOME/.bash" ]; then
   for f in ~/.bash/*.sh; do source $f; done
 
