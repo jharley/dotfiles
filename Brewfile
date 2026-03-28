@@ -7,6 +7,7 @@ brew "bash-completion"
 
 brew "bzip2"
 brew "direnv"
+brew "caffeine"
 brew "fzf"
 brew "gawk"
 brew "gh"
