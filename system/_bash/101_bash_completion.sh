@@ -14,8 +14,4 @@ if [[ `uname` == 'Darwin' ]]; then
     if [[ -e $(which fzf 2>/dev/null) ]]; then
       eval "$(fzf --bash)"
     fi
-
-    if [[ -e $(which mise 2>/dev/null) ]]; then
-      eval "$(mise completion bash --include-bash-completion-lib)" 2>/dev/null
-    fi
 fi
