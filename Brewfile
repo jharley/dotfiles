@@ -3,7 +3,7 @@ tap "homebrew/autoupdate"
 tap "tilt-dev/tap"
 
 brew "bash"
-brew "bash-completion"
+brew "bash-completion@2"
 
 brew "bzip2"
 brew "direnv"
