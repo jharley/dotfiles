@@ -5,6 +5,7 @@ idiomatic_version_file_enable_tools = ["go"]
 [tools]
 awscli = { version = "latest", symlink_bins = "true" }
 go = "1.24"
+golangci-lint = "v2.11.4"
 java = "openjdk-21"
 node = "24"
 pipx = "latest"
