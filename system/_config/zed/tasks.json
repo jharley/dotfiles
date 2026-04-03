@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Go: test current package",
+    "command": "go",
+    "args": ["test", "-v", "$ZED_DIRNAME"],
+    "shell": {
+      "with_arguments": {
+        "program": "/opt/homebrew/bin/bash",
+        "args": ["--login"]
+      }
+    },
+    "use_new_terminal": false
+  },
+  {
+    "label": "Rust: cargo run",
+    "command": "cargo",
+    "args": ["run"],
+    "shell": {
+      "with_arguments": {
+        "program": "/opt/homebrew/bin/bash",
+        "args": ["--login"]
+      }
+    },
+    "use_new_terminal": false
+  }
+]
