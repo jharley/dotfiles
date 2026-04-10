@@ -7,6 +7,21 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "preferred_line_length": 120,
+  "project_panel": {
+    "git_status_indicator": true,
+    "bold_folder_labels": true,
+    "indent_size": 16.0
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "show_diagnostics": "errors",
+    "file_icons": true,
+    "git_status": true
+  },
+  "scroll_beyond_last_line": "off",
   "agent_servers": {
     "claude-acp": {
       "type": "registry",
@@ -25,6 +40,7 @@
     "gutter_debounce": 2,
   },
   "vim": {
+    "toggle_relative_line_numbers": true,
     "use_smartcase_find": true,
   },
   "vim_mode": true,
