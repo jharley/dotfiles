@@ -1,6 +1,6 @@
 command = /opt/homebrew/bin/bash --login
 shell-integration = bash
-shell-integration-features = true
+shell-integration-features = cursor,ssh-env,sudo,title,path
 
 cursor-style = block
 
