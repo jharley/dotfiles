@@ -7,9 +7,24 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "icon_theme": "Seti Icon Theme",
   "preferred_line_length": 120,
   "project_panel": {
+    "dock": "left",
     "git_status_indicator": true,
     "bold_folder_labels": true,
     "indent_size": 16.0
