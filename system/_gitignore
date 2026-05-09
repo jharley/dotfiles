@@ -1,23 +1,11 @@
-# environment variables set via rbenv
-.rbenv-vars
-
-# per-project vim settings
-.lvimrc
-
 # per-project VS Code settings
 .vscode
 
 # per-project Zed settings
 .zed
 
-# Claude local settings
+# per-project Claude settings
 .claude/settings.local.json
-
-# local POW config
-.powenv
-
-# configuration for The Silver Searcher
-.agignore
 
 # vendored gems
 .bundle/
