@@ -1,0 +1,5 @@
+export PATH="/opt/homebrew/bin:$PATH"
+
+if [[ -x /opt/homebrew/bin/mise ]]; then
+  eval "$(mise activate zsh)"
+fi
