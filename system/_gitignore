@@ -6,6 +6,7 @@
 
 # per-project Claude settings
 .claude/settings.local.json
+.claude/worktrees/
 
 # vendored gems
 .bundle/

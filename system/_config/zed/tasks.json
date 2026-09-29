@@ -12,6 +12,14 @@
     "use_new_terminal": false
   },
   {
+    "label": "Go: toggle test file",
+    "command": "/Users/jason.harley/bin/zed-toggle-test",
+    "args": ["$ZED_FILE"],
+    "reveal": "never",
+    "hide": "always",
+    "use_new_terminal": false
+  },
+  {
     "label": "Rust: cargo run",
     "command": "cargo",
     "args": ["run"],

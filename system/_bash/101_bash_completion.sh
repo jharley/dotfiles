@@ -14,4 +14,9 @@ if [[ `uname` == 'Darwin' ]]; then
     if [[ -e $(which fzf 2>/dev/null) ]]; then
       eval "$(fzf --bash)"
     fi
+
+    if [[ -e $(which gcloud 2>/dev/null) ]]; then
+      GCLOUD_SDK="$(mise where gcloud 2>/dev/null)"
+      [[ -r "$GCLOUD_SDK/completion.bash.inc" ]] && . "$GCLOUD_SDK/completion.bash.inc"
+    fi
 fi
